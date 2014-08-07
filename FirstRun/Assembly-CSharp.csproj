@@ -46,9 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bmove.cs" />
-     <Compile Include="Assets\Doesomething.cs" />
-     <Compile Include="Assets\Move.cs" />
+     <Compile Include="Assets\Scripts\Bmove.cs" />
+     <Compile Include="Assets\Scripts\Doesomething.cs" />
+     <Compile Include="Assets\Scripts\GibonTrigge.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\Shoot.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
