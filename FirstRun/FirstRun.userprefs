@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Bmove.cs">
+    <Files>
+      <File FileName="Assets\Doesomething.cs" Line="19" Column="5" />
+      <File FileName="Assets\Move.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Shoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Bmove.cs" Line="15" Column="78" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
