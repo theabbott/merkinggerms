@@ -16,7 +16,9 @@ public class PseudoLeftRight : MonoBehaviour {
 	void Update () 
 	
 	{
+		 
 		renderer.material.mainTextureOffset += Vector2.right*Input.GetAxis("Horizontal")* speed * Time.deltaTime ;
+
 
 	}
 }

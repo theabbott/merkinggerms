@@ -46,11 +46,28 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenese\Animatedtexture.cs" />
+     <Compile Include="Assets\Scripts\Afterburner.cs" />
+     <Compile Include="Assets\Scripts\AnimateShip.cs" />
      <Compile Include="Assets\Scripts\Bmove.cs" />
+     <Compile Include="Assets\Scripts\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\DestroyUnderZValue.cs" />
+     <Compile Include="Assets\Scripts\DisplayLastscore.cs" />
+     <Compile Include="Assets\Scripts\Displayhighscore.cs" />
      <Compile Include="Assets\Scripts\Doesomething.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GibonTrigge.cs" />
+     <Compile Include="Assets\Scripts\Infinite Scroll.cs" />
+     <Compile Include="Assets\Scripts\KillSelfAfterLeavingScreen.cs" />
+     <Compile Include="Assets\Scripts\LoadLevelOnAnyKey.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\MoveGamespeed.cs" />
+     <Compile Include="Assets\Scripts\ProceedureSpawn.cs" />
+     <Compile Include="Assets\Scripts\PseudoLeftRight.cs" />
+     <Compile Include="Assets\Scripts\ScaleOverTime.cs" />
      <Compile Include="Assets\Scripts\Shoot.cs" />
+     <Compile Include="Assets\Scripts\SphereMove.cs" />
+     <None Include="Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

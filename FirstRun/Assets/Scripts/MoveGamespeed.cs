@@ -9,24 +9,24 @@ public class MoveGamespeed : MonoBehaviour {
 	void Start () 
 	{
 	
-		OGSpeed = GameManager.instance.gamespeed;
+		OGSpeed = GameManager._instance.gamespeed;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
 		//transform.position += Vector3.right;
-		transform.position += transform.rotation*(direction.normalized*GameManager.instance.gamespeed*Time.deltaTime);
-		if (GameManager.instance.gamespeed>=0)
-			GameManager.instance.gamespeed += 0.1f*Input.GetAxis("Vertical"); 
+		transform.position += transform.rotation*(direction.normalized*GameManager._instance.gamespeed*Time.deltaTime);
+		if (GameManager._instance.gamespeed>=0)
+			GameManager._instance.gamespeed += 0.1f*Input.GetAxis("Vertical"); 
 		
-		if (GameManager.instance.gamespeed < 0)
-			GameManager.instance.gamespeed = OGSpeed;
+		if (GameManager._instance.gamespeed < 0)
+			GameManager._instance.gamespeed = OGSpeed;
 		
 		if(Input.GetButtonUp("Vertical"))
 			
-			if (GameManager.instance.gamespeed>OGSpeed)
-				GameManager.instance.gamespeed -= 1.0f;
+			if (GameManager._instance.gamespeed>OGSpeed)
+				GameManager._instance.gamespeed -= 1.0f;
 
 
 

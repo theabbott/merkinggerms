@@ -14,9 +14,11 @@ public class Move : MonoBehaviour {
 	void Update () 
 	{
 		//transform.position += Vector3.right;
-		transform.position += Vector3.left*Time.deltaTime;
-		print (transform.position);
+		transform.position += Vector3.forward*Time.deltaTime;
+		//print (transform.position);
 
 
 	}
+
+
 }

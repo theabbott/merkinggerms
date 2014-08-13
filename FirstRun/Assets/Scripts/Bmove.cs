@@ -6,8 +6,9 @@ public class Bmove : MonoBehaviour {
 	public Vector3 direction = Vector3.forward;
 	
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
+		transform.position = new Vector3 (0, 2, -40);	
 	}
 	
 	// Update is called once per frame

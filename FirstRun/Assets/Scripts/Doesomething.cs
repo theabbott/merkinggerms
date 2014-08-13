@@ -16,6 +16,9 @@ public class Doesomething : MonoBehaviour
 	{
 		// this moves our object left or right via the keys horizontal
 		transform.position += Vector3.left*Input.GetAxis("Horizontal")*speed*Time.deltaTime;
+
+
+
 		//print (transform.position);
 	
 	}
